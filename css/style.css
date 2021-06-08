@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-size: 16px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+body {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+}
+
+.game {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 30px 0 100px 0;
+    background: #0808b1;
+}
+  
+.rule {
+    color: #fff;
+    margin: 0 100px 25px;
+}
+  
+.rule-title {
+    color: paleturquoise;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.rule-title img{
+    display: inline;
+}
+  
+.rule-block {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+  
+.rule-number {
+    font-size: 25px;
+    margin-right: 30px;
+    color: paleturquoise;
+}
+  
+.rule-content {
+    text-align: left;
+    font-size: 13px;
+}
+  
+.door-container img {
+    margin: 0 15px;
+    cursor: pointer;
+    display: inline;
+}
+  
+.play-button {
+    margin: 20px 0;
+}
+  
+.play-button button {
+    background-color: orangered;
+    color: blue;
+    padding: 10px 15px;
+    border: none;
+}
+
+
+.result-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.result-block {
+    margin: 0 15px;
+    color: #fff;
+}
+
+  
+.result {
+    background-color: paleturquoise;
+    color: blue;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 35px;
+    font-weight: 600;
+}
+  
+.result-label {
+    font-size: 13px;
+    margin-bottom: 10px;
+    text-align: left;
+}

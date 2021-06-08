@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/6d708c259b.js" crossorigin="anonymous"></script>
+    <title>GAME</title>
+</head>
+<body>
+    <div class="game">
+        <div class="rule">
+            <div class="rule-title">
+                <img src="./image/star.svg" alt=""> Instructions <img src="./image/star.svg" alt="">
+            </div>
+            <div class="rule-block">
+                <div class="rule-number">1</div>
+                <div class="rule-content">Lorem Ipsum is simply dummy text of the printing.</div>
+            </div>
+            <div class="rule-block">
+                <div class="rule-number">2</div>
+                <div class="rule-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </div>
+            </div>
+            <div class="rule-block">
+                <div class="rule-number">3</div>
+                <div class="rule-content">Lorem Ipsum is simply dummy text of the printing and typesetting.</div>
+            </div>
+            <div class="rule-block">
+                <div class="rule-number">4</div>
+                <div class="rule-content">Lorem Ipsum is simply dummy text of the.</div>
+            </div>
+        </div>
+        <div class="door-container">
+            <img src="./image/closed_door.svg" alt="" id="door-1">
+            <img src="./image/closed_door.svg" alt="" id="door-2">
+            <img src="./image/closed_door.svg" alt="" id="door-3">
+        </div>
+        <div class="play-button">
+            <button>Good luck!</button>
+        </div>
+        <div class="result-container">
+            <div class="result-block">
+                <div class="result-label">Current streak:</div>
+                <div id="current-streak" class="result">0</div>
+            </div>
+            <div class="result-block">
+                <div class="result-label">Best streak:</div>
+                <div id="best-streak" class="result">0</div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="jquery.js"></script>
+</body>
+</html>
